@@ -1,0 +1,20 @@
+# Déclaration du projet, en deux sections, sur le modèle du template de cours
+# Diginamic (voir son chapitre 00-Creer-un-depot-de-cours.md).
+#
+# - course : ce que vise le projet (titres et blocs RNCP, durée en jours).
+# - credits : qui signe le projet, et avec quels comptes GitHub.
+course:
+  name: "Projet Muséum de Valbrune : site vitrine HTML5 et Bootstrap"
+  RNCP:     ## titres visés : DWWM et CDA
+    - RNCP37674
+    - RNCP37873
+  RNCPBloc: ## bloc 1 de chaque titre
+    - RNCP37674BC01
+    - RNCP37873BC01
+  timing: 10 ## 2 semaines ; une 3e semaine est optionnelle
+
+credits:
+  authors:
+    - name: Jean-François Vial
+      github:
+        - JeffDiginamic

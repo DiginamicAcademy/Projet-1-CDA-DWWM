@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Muséum de Valbrune : feuille de style personnalisée
+   Chargée APRÈS la feuille de style de Bootstrap (voir dossier technique).
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Polices auto-hébergées (fichiers dans assets/fonts/, licence SIL OFL 1.1)
+   -------------------------------------------------------------------------- */
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/fraunces-latin-600-normal.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/fraunces-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("../fonts/atkinson-hyperlegible-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("../fonts/atkinson-hyperlegible-latin-400-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("../fonts/atkinson-hyperlegible-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --------------------------------------------------------------------------
+   2. Variables de la charte (à compléter avec les codes de la planche)
+   -------------------------------------------------------------------------- */
+:root {
+  /* --mv-encre: ;   */
+  /* --mv-lichen: ;  */
+  /* ...             */
+}
+
+/* --------------------------------------------------------------------------
+   3. Vos styles
+   -------------------------------------------------------------------------- */
