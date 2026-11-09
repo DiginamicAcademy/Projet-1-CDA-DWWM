@@ -106,7 +106,7 @@ Le détail des paliers et du planning est au § 4 et au § 7 du
 1. **Cloner ce dépôt** :
 
    ```bash
-   git clone https://github.com/DiginamicAcademy/Projet-Museum-Valbrune.git
+   git clone https://github.com/DiginamicAcademy/Projet-1-CDA-DWWM.git
    ```
 
 2. **Lire le sujet en entier**, puis parcourir les wireframes.
