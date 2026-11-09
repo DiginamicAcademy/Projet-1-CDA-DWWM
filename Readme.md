@@ -40,7 +40,7 @@ documents/                le sujet, le dossier technique, les contenus        �
 maquettes/                les wireframes (PDF et PNG), la charte graphique    → la référence visuelle
 kit/museum-valbrune/      le squelette de votre site                          → à copier hors de ce dépôt
 assets/, config.yaml      logos et déclaration du projet (outillage Diginamic) → à ignorer
-.gitignore, .gitattributes  conventions du dépôt                              → à ignorer
+ignore, attributes  conventions du dépôt                              → à ignorer
 ```
 
 ### 2.1 Les documents
@@ -106,7 +106,7 @@ Le détail des paliers et du planning est au § 4 et au § 7 du
 1. **Cloner ce dépôt** :
 
    ```bash
-   git clone https://github.com/DiginamicAcademy/Projet-1-CDA-DWWM.git
+   git clone https://github.com/DiginamicAcademy/Projet-1-CDA-DWWM
    ```
 
 2. **Lire le sujet en entier**, puis parcourir les wireframes.
@@ -116,7 +116,7 @@ Le détail des paliers et du planning est au § 4 et au § 7 du
 
    ```bash
    # Git Bash, macOS, Linux (sous PowerShell : Copy-Item -Recurse au lieu de cp -r)
-   cp -r Projet-Museum-Valbrune/kit/museum-valbrune ./museum-valbrune
+   cp -r Projet-1-CDA-DWWM/kit/museum-valbrune ./museum-valbrune
    cd museum-valbrune
    git init
    git add .
